@@ -93,6 +93,10 @@ Unreal Engine sets normal map compression by itself from the `_N` suffix. Names 
 
 Every export also renders the asset preview `<model>_preview.png` into the same folder: 1024 × 1024, transparent background, three-quarter view, the model with its baked material under studio light. It is rendered in a temporary scene, so your camera, lights and render settings stay as they are.
 
+<img src="images/asset_preview.png" width="400" alt="Asset preview written by Export: the baked 5,000-triangle rock on a transparent background">
+
+*The preview written next to `SM_Rock_High_LOW.fbx` (Unreal Engine export), as it comes out.*
+
 Bake Normals as DirectX for Unreal and OpenGL for Unity and Godot (glTF always uses OpenGL); the add-on warns if they do not match. The scene is not changed by an export. In FBX, AO is not on the material (FBX has no input for it): connect it in the engine.
 
 ## What you get
