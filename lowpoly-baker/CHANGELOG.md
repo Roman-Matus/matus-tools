@@ -1,5 +1,10 @@
 # Lowpoly Baker — release notes
 
+## 0.4.1 — bug fix
+
+- Fixed: the main panel header (version, Help and Docs buttons) did not draw and printed `NameError: name 'bl_info' is not defined` to the console when the add-on was installed as an extension (Blender 4.2+). Baking and export were not affected.
+- Update: install the new zip over the old one (Edit → Preferences → Get Extensions → Install from Disk).
+
 ## 0.4.0 — first public release
 
 - Create Low Poly: Decimate or Voxel + Decimate to a triangle budget; Smart UV or Keep UV; Smooth, Smooth by Angle or Flat shading; pivot kept at the source origin.
