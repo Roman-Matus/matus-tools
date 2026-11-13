@@ -1,5 +1,11 @@
 # Lowpoly Baker — release notes
 
+## 0.4.2 — bug fix
+
+- Fixed: single dark (black) triangles on fillets and hole rims after baking. Smart UV cut those spots into one-triangle islands smaller than a texture pixel, so the bake wrote nothing there. Tiny islands are now joined to a neighbouring island (the triangle keeps its shape), and anything still too small is scaled up before packing.
+- New: after baking, the status line warns if any UV island got no baked pixel (for example with Keep UV or an old unwrap); the number is also saved in `bake_report.json`. Press Rebuild UV and bake again.
+- Update: install the new zip over the old one (Edit → Preferences → Get Extensions → Install from Disk). Low polys made with an older version: press Rebuild UV, then bake again.
+
 ## 0.4.1 — bug fix
 
 - Fixed: the main panel header (version, Help and Docs buttons) did not draw and printed `NameError: name 'bl_info' is not defined` to the console when the add-on was installed as an extension (Blender 4.2+). Baking and export were not affected.
