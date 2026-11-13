@@ -1,5 +1,10 @@
 # Lowpoly Baker — release notes
 
+## 0.4.3 — bug fix
+
+- Fixed: in the material Lowpoly Baker builds on the low poly, metal inside holes and bores looked almost black. The AO map was multiplied into the base color, so Cycles / EEVEE darkened those places twice. The AO map is still baked, exported and connected in the material, but it no longer darkens the preview color. Exported textures are not changed.
+- Update: install the new zip over the old one (Edit → Preferences → Get Extensions → Install from Disk). Low polys baked with an older version: bake again, or set the Factor of the node "AO over Base Color" to 0.
+
 ## 0.4.2 — bug fix
 
 - Fixed: single dark (black) triangles on fillets and hole rims after baking. Smart UV cut those spots into one-triangle islands smaller than a texture pixel, so the bake wrote nothing there. Tiny islands are now joined to a neighbouring island (the triangle keeps its shape), and anything still too small is scaled up before packing.

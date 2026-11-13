@@ -4,7 +4,7 @@ about: Something in a Matus Tools add-on does not work as expected
 labels: bug
 ---
 
-**Add-on and version** (e.g. Lowpoly Baker 0.4.2):
+**Add-on and version** (e.g. Lowpoly Baker 0.4.3):
 
 **Blender version and operating system:**
 
