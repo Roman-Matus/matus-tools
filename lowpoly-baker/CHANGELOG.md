@@ -1,5 +1,10 @@
 # Lowpoly Baker — release notes
 
+## 0.4.4 — bug fix
+
+- Fixed: with the default Engine (Unreal Engine) the normal map was baked as OpenGL (+Y), while Unreal expects DirectX (−Y). Normals now default to DirectX, and changing Engine sets them for you: Unreal → DirectX, Unity and Godot → OpenGL (Other keeps your choice). You can still switch Normals by hand.
+- Update: install the new zip over the old one (Edit → Preferences → Get Extensions → Install from Disk). Scenes where you set Normals yourself keep your setting.
+
 ## 0.4.3 — bug fix
 
 - Fixed: in the material Lowpoly Baker builds on the low poly, metal inside holes and bores looked almost black. The AO map was multiplied into the base color, so Cycles / EEVEE darkened those places twice. The AO map is still baked, exported and connected in the material, but it no longer darkens the preview color. Exported textures are not changed.

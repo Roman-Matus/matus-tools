@@ -63,7 +63,7 @@ A greyed-out button shows the missing step in its tooltip.
 |---|---|
 | Maps | Base Color, Normal, AO, Roughness, Metallic, Height. Base Color, Roughness and Metallic are read from the Principled BSDF of the source material. |
 | Engine | Names the textures in the engine's convention, with the resolution (1K, 2K, 4K): see the table below. The same setting as Engine in Export. |
-| Normals | OpenGL (Blender, Unity, Godot) or DirectX (Unreal Engine). |
+| Normals | OpenGL (Blender, Unity, Godot) or DirectX (Unreal Engine). Engine sets it for you; you can still change it. |
 | Resolution | Size of every texture, 256 to 4096 px. |
 | Format | PNG (8 or 16 bit) for engines, EXR 32-bit for further work. |
 | Folder | Where textures go. Every bake makes a new dated subfolder. |
