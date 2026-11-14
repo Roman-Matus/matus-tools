@@ -1,5 +1,10 @@
 # Lowpoly Baker — release notes
 
+## 0.4.5 — bug fix
+
+- Fixed: a scene saved with an older version where Engine was Unity, Godot or Other opened in 0.4.4 with Normals set to DirectX, so the normal map would bake with the wrong green channel. Normals that were never changed by hand now follow the Engine (Unreal → DirectX, the others → OpenGL); a choice you made yourself is kept.
+- Update: install the new zip over the old one (Edit → Preferences → Get Extensions → Install from Disk).
+
 ## 0.4.4 — bug fix
 
 - Fixed: with the default Engine (Unreal Engine) the normal map was baked as OpenGL (+Y), while Unreal expects DirectX (−Y). Normals now default to DirectX, and changing Engine sets them for you: Unreal → DirectX, Unity and Godot → OpenGL (Other keeps your choice). You can still switch Normals by hand.
