@@ -1,5 +1,11 @@
 # Lowpoly Baker — release notes
 
+## 0.4.6 — faster UV packing, safer ray distances
+
+- Faster: UV packing (Smart UV with Optimize UV on) is many times faster. On a rock with about 150 UV islands it took 25–50 s, now about 3 s. The gaps between islands are still at least the padding you set, and the islands fill the texture a little better than before.
+- Fixed: Auto ray distances could come out far too large on a low poly with concave n-gons, for example faces around holes after a boolean. The distances are now measured on the real triangles of the low poly.
+- Update: install the new zip over the old one (Edit → Preferences → Get Extensions → Install from Disk). Your scenes and settings stay as they are.
+
 ## 0.4.5 — bug fix
 
 - Fixed: a scene saved with an older version where Engine was Unity, Godot or Other opened in 0.4.4 with Normals set to DirectX, so the normal map would bake with the wrong green channel. Normals that were never changed by hand now follow the Engine (Unreal → DirectX, the others → OpenGL); a choice you made yourself is kept.
