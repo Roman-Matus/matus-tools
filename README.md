@@ -6,8 +6,11 @@ Documentation, release notes and bug reports. The add-ons themselves are sold on
 | Add-on | What it does | Docs |
 |---|---|---|
 | **Lowpoly Baker** | High-poly model or scan → game-ready low poly with baked textures, in two clicks | [Lowpoly Baker](lowpoly-baker/README.md) |
+| **Cast Maker** | Primitives → one cast part with fillets, casting grain, paint and wear, then a game-ready low poly with baked textures | [Cast Maker](cast-maker/README.md) |
 
 [![Lowpoly Baker](lowpoly-baker/images/01_hero.jpg)](lowpoly-baker/README.md)
+
+[![Cast Maker](cast-maker/images/01_hero.jpg)](cast-maker/README.md)
 
 ## Links
 
