@@ -7,7 +7,7 @@ Blender 5.0 and newer.
 
 ![Cast Maker: from primitives to a painted cast part](images/cast_maker.gif)
 
-**Get it:** [Patreon](https://www.patreon.com/MatusTools/posts/cast-maker-add-175587248) · **Watch:** [YouTube video](https://www.youtube.com/watch?v=Wc8dl5I74pE)
+**Get it:** [Patreon](https://www.patreon.com/MatusTools/posts/cast-maker-add-175587248) · [BlenderKit](https://www.blendkit.com/asset-gallery-detail/47008cfb-c1b0-45cc-a4dd-a5f131b9d0c0/) · **Watch:** [YouTube video](https://www.youtube.com/watch?v=Wc8dl5I74pE)
 
 ## Install
 

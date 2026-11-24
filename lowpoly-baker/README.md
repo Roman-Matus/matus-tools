@@ -6,7 +6,7 @@ Blender 4.2 and newer.
 
 ![Lowpoly Baker: 1,483,989 triangles → 5,000 triangles with baked maps, in two clicks](images/lowpoly_baker.gif)
 
-**Get it:** [Patreon](https://www.patreon.com/MatusTools) · [BlendSwap](https://blendswap.com/blend/35324) · **Watch:** [YouTube video](https://youtu.be/m2xo3GLNULk)
+**Get it:** [Patreon](https://www.patreon.com/MatusTools) · [BlendSwap](https://blendswap.com/blend/35324) · [BlenderKit](https://www.blendkit.com/asset-gallery-detail/3e70f80c-b2e6-494b-beab-4d5d937639cb/) · **Watch:** [YouTube video](https://youtu.be/m2xo3GLNULk)
 
 ## Install
 
